@@ -1,0 +1,47 @@
+ILoString mary = new ConsLoString("Mary ",
+            new ConsLoString("had ",
+                    new ConsLoString("a ",
+                            new ConsLoString("little ",
+                                    new ConsLoString("lamb.", new MtLoString())))));
+    ILoString mt = new MtLoString();
+
+    ILoString hello = new ConsLoString("Hello",
+            new ConsLoString("World", new MtLoString()));
+
+    ILoString hello2 = new ConsLoString("Hello",
+            new ConsLoString("I",
+                    new ConsLoString("am",
+                            new ConsLoString("Brendan", new MtLoString()))));
+
+    ILoString hello3 = new ConsLoString("I",
+            new ConsLoString("am",
+                    new ConsLoString("Jameson", new MtLoString())));
+
+    ILoString abc = new ConsLoString("a",
+            new ConsLoString("b",
+                    new ConsLoString("c", new MtLoString())));
+
+    ILoString numb = new ConsLoString("1",
+            new ConsLoString("2",
+                    new ConsLoString("3",
+                            new ConsLoString("4",
+                                    new ConsLoString("5", new MtLoString())))));
+
+    ILoString ucase = new ConsLoString("Bob",
+            new ConsLoString("adam",
+                    new ConsLoString("cam",
+                            new ConsLoString("Dan", new MtLoString()))));
+
+    ILoString dblnumb = new ConsLoString("1",
+            new ConsLoString("2",
+                    new ConsLoString("2",
+                            new ConsLoString("3",
+                                    new ConsLoString("4",
+                                            new ConsLoString("5", new MtLoString()))))));
+
+    ILoString pdrome = new ConsLoString("a",
+            new ConsLoString("b",
+                    new ConsLoString("c",
+                            new ConsLoString("b",
+                                    new ConsLoString("a", new MtLoString())))));
+
