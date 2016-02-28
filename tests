@@ -45,3 +45,48 @@ ILoString mary = new ConsLoString("Mary ",
                             new ConsLoString("b",
                                     new ConsLoString("a", new MtLoString())))));
 
+
+
+
+
+
+boolean testGetNext(Tester t) {
+        return this;
+    }
+    
+    boolean testIsSorted(Tester t) {
+        return this;
+    }
+    
+    boolean testIsCons(Tester t) {
+        return;
+    }
+    
+    boolean testIsSameList(Tester t) {
+        return
+    }
+    
+    boolean testComesBefore(Tester t) {
+        return
+    }
+    
+    boolean testSort(Tester t) {
+        return this;
+    }
+    
+    boolean testIsSameList(Tester t) {
+        return this;
+    }
+    
+    boolean testIsSameConsList(Tester t) {
+        return this;
+    }
+    
+    boolean testMerge(Tester t) {
+        return this;
+    }
+    
+    boolean testInsert(Tester t) {
+        return this;
+    }
+}
